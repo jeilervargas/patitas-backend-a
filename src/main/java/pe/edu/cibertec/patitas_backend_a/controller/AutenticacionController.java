@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pe.edu.cibertec.patitas_backend_a.dto.LoginRequestDTO;
 import pe.edu.cibertec.patitas_backend_a.dto.LoginResponseDTO;
+import pe.edu.cibertec.patitas_backend_a.dto.SignOutRequestDTO;
+import pe.edu.cibertec.patitas_backend_a.dto.SignOutResponseDTO;
 import pe.edu.cibertec.patitas_backend_a.service.AutenticacionService;
 
 import java.io.IOException;
