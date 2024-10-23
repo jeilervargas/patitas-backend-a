@@ -33,9 +33,11 @@ public class AutenticacionServiceImpl implements AutenticacionService {
                     loginRequestDTO.numeroDocumento().equals(datos[1]) &&
                     loginRequestDTO.password().equals(datos[2])) {
 
-                    datosUsuario = new String[2];
+                    datosUsuario = new String[4];
                     datosUsuario[0] = datos[3]; // Recuperar nombre
                     datosUsuario[1] = datos[4]; // Recuperar correo
+                    datosUsuario[2] = datos[0];
+                    datosUsuario[3] = datos[1];
                     break;
 
                 }
